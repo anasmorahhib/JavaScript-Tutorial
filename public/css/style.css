@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+p{
+    font-size: 1em;
+}
+#footer {
+    padding: 15px 25px;
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+#footer .footer-desc{
+    border-right: 1px solid var(--action);
+    border-left: 1px solid var(--action);
+}
+
+/*images*/
+
+img.thumbnail {
+    height: 90px;
+    width: 90px;
+    border-radius: 30%;
+}
+
+img.with-text{
+    float: left;
+    padding: 6px 6px 0 0;
+    
+}
+/*End images*/
+
+/*Shape*/
+.f-circle{
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+.f-circle-sm {
+    height: 30px;
+    width: 30px;
+}
+
+.f-circle-purple {
+    background-color: var(--action);
+    color: var(--dark);
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary);
+}
+
+/*End Shape*/
+
+#footer ul li {
+    margin-bottom: 10px;
+}
+
+#footer ul li a{
+    color: var(--action);
+}
+#footer ul li a:hover{
+    color: var(--dark);
+}
+
+#footer h3 {
+    font-size: 1.4em;
+    padding-left: 4px;
+    color: var(--dark);
+}
+
+.copyright {
+    color: var(--secondary);
+    background-color: var(--action);
+    margin: 0%;
+    padding: 6px;
+    text-align: center;
+}
+
+/* Flex Class */
+.f-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: start;
+
+}
+
+
+.f-flex .col-md-3 {
+    max-width: 33%;
+    padding: 0 18px;
+}
+
+/* General*/
+.text-justify {
+    text-align: justify;
+}
+
+
+#navbar{
+    background-color: var(--secondary);
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    padding: 16px;
+}
+#navbar ul {
+    float: right;
+    margin: 9px 30px;
+    display: inline;
+}
+#navbar ul li{
+    display: inline;
+    line-height: 60px;
+    margin: 0 8px;
+}
+#navbar ul li a{
+    color: var(--dark);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 4px 20px;
+}
+#navbar ul li a.active,#navbar ul li a:hover{
+    background-color: var(--action);
+    transition: .5s;
+    color: var(--secondary);
+}
+
+.todo-list{
+    font-size: 48px;
+    text-align: center;
+}

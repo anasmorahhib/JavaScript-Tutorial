@@ -1,0 +1,25 @@
+:root {
+    --action: #489CC0;
+    --secondary: #E6F4F1;
+    --primary: #002D4C;
+    --dark: #364954;
+}
+body {
+    margin: 0;
+}
+
+ul {
+    padding-inline-start: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--dark);
+}
